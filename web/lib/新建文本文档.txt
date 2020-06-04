@@ -1,0 +1,53 @@
+Error:Internal error: (java.io.FileNotFoundException) E:\IdeaWorkSpace\JavaWeb\out\artifacts\JavaWeb_war_exploded\lib\mysql-connector-java-8.0.15.jar (拒绝访问。)
+java.io.FileNotFoundException: E:\IdeaWorkSpace\JavaWeb\out\artifacts\JavaWeb_war_exploded\lib\mysql-connector-java-8.0.15.jar (拒绝访问。)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at com.intellij.openapi.util.io.FileUtil.openOutputStream(FileUtil.java:432)
+	at com.intellij.openapi.util.io.FileUtil.performCopy(FileUtil.java:401)
+	at com.intellij.openapi.util.io.FileUtil.copyContent(FileUtil.java:395)
+	at org.jetbrains.jps.incremental.FSOperations.copy(FSOperations.java:412)
+	at org.jetbrains.jps.incremental.artifacts.instructions.FilterCopyHandler.copyFile(FilterCopyHandler.java:40)
+	at org.jetbrains.jps.incremental.artifacts.instructions.FileBasedArtifactRootDescriptor.copyFromRoot(FileBasedArtifactRootDescriptor.java:88)
+	at org.jetbrains.jps.incremental.artifacts.IncArtifactBuilder.build(IncArtifactBuilder.java:160)
+	at org.jetbrains.jps.incremental.artifacts.IncArtifactBuilder.build(IncArtifactBuilder.java:50)
+	at org.jetbrains.jps.incremental.IncProjectBuilder.buildTarget(IncProjectBuilder.java:1036)
+	at org.jetbrains.jps.incremental.IncProjectBuilder.runBuildersForChunk(IncProjectBuilder.java:1017)
+	at org.jetbrains.jps.incremental.IncProjectBuilder.buildTargetsChunk(IncProjectBuilder.java:1073)
+	at org.jetbrains.jps.incremental.IncProjectBuilder.buildChunkIfAffected(IncProjectBuilder.java:967)
+	at org.jetbrains.jps.incremental.IncProjectBuilder.buildChunks(IncProjectBuilder.java:796)
+	at org.jetbrains.jps.incremental.IncProjectBuilder.runBuild(IncProjectBuilder.java:378)
+	at org.jetbrains.jps.incremental.IncProjectBuilder.build(IncProjectBuilder.java:178)
+	at org.jetbrains.jps.cmdline.BuildRunner.runBuild(BuildRunner.java:140)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:297)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:130)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler.lambda$channelRead0$0(BuildMain.java:232)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Please perform full project rebuild (Build | Rebuild Project)
+
+
+
+
+
+
+
+
+
+
+
+
+以太网
+
+	Realtek PCIe GBE Family Controller
+
+	适配器名称:	以太网
+	DNS 名称:	DHCP HOST
+	连接类型:	以太网
+	IPv4 地址:	192.168.0.113
+	IPv6 地址:	fe80::ccde:15a8:f940:13bd%12
+	接收	0 Kbps
+	发送	0 Kbps
+
